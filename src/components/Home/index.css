@@ -1,0 +1,63 @@
+.heading{
+    color: black;
+}
+.cardsList{
+    background-color: aqua;
+     padding: 10px;
+    margin: 10px;
+    width: 30%;
+    cursor: pointer;
+    border-radius: 10px;
+    border-width: 10px #853;
+}
+.cardsContainer{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+   
+}
+.search{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.loader-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+  }
+  
+  .nav-link{
+    width: 100%;
+  }
+  .Darkmode{
+      
+    background-color: rgb(11, 11, 11);
+    color: aliceblue;
+  }
+  .LightMode{
+      
+    background-color: rgb(194, 205, 235);
+    color: rgb(14, 14, 15);
+  }
+
+
+  .Darkmodebutton{
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(11, 11, 11);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .LightModelight{
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(149, 199, 243);
+    border-radius: 10px;
+    background-color: black;
+    cursor: pointer;
+  }
