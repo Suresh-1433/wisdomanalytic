@@ -3,6 +3,8 @@ import {
   Route,
   Routes
 } from 'react-router-dom';
+import reportWebVitals from './reportWebVitals';
+
 import Home from './components/Home/index.js'
 import UserDetail from './components/UserDetail.js/index.js';
 import NotFound from './components/NotFound/index.js'
@@ -19,5 +21,5 @@ const App = () =>{
     </BrowserRouter>
   );
 }
-
+reportWebVitals();
 export default App;
